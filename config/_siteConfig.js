@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'tuttiq.me',
-  url: 'https://tuttiq.me',
+  siteName: 'gaboni.netlify.app',
+  url: 'https://gaboni.netlify.app',
   tagLine: 'Tech | Leadership | Career | D&I',
   description:
     "Tutti Quintella's personal website (tuttiq's blog). Stories of a software engineer turned into engineering manager, community leader and D&I advocate (for women and underrepresented folks in tech).",
@@ -29,14 +29,8 @@ export default {
       name: 'Content',
       link: '/categories'
     },
-    {
-      name: 'Projects & Organizations',
-      link: '/projects'
-    },
-    {
-      name: 'About me',
-      link: '/about'
-    },
+    
+     
     {
       name: 'Contact',
       link: '/contact'
@@ -67,7 +61,7 @@ export default {
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to my newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
