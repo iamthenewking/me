@@ -29,50 +29,14 @@
 
       <template v-slot:sidebar>
         <div class="content has-text-centered">
-          <span class="title">Meet Tutti</span>
-          <figure class="image profile">
-            <opti-image
-              class="is-rounded"
-              :src="require('~/static/img/about-tuttiq.jpg').src"
-              :srcset="require('~/static/img/about-tuttiq.jpg').srcSet"
-            />
-          </figure>
+           
           <p class="is-size-7 is-size-6-widescreen is-size-6-mobile">
-            💻 <code>@tuttiq</code> <br />
-            🗣 She / her / hers<br />
-            From 🇧🇷, living in 🇯🇵<br />
-            💼 Eng. Manager @
-            <a href="https://about.mercari.com/en/" target="_blank">Mercari</a>
-            <br />
-            🎗️ Director @
-            <a href="https://womenwhocode.com/tokyo" target="_blank">
-              WWCode Tokyo
-            </a>
+         <img src="VB-LOG-R-2T.png">
           </p>
           <social-media />
 
-          <span class="title">
-            On Twitter
-          </span>
-          <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr">
-              “Glue work is the difference between a project that succeeds and
-              one that fails”<br /><br />
-              In teams without a project manager, it is likely to be considered
-              “non-promotable” work.<br /><br />Who should do it then? How to
-              recognize this work?<br /><br />Amazing piece by
-              <a href="https://twitter.com/whereistanya?ref_src=twsrc%5Etfw">
-                @whereistanya
-              </a>
-              <a href="https://t.co/PMHNNdEZzK">https://t.co/PMHNNdEZzK</a>
-            </p>
-            &mdash; Tutti Quintella (@tuttiq)
-            <a
-              href="https://twitter.com/tuttiq/status/1228537993750663168?ref_src=twsrc%5Etfw"
-            >
-              February 15, 2020
-            </a>
-          </blockquote>
+          
+          
         </div>
       </template>
     </main-section>
