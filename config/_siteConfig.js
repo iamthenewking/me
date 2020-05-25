@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'gaboni.netlify.app',
+  siteName: 'Gaboni Blog',
   url: 'https://gaboni.netlify.app',
   tagLine: 'All Things Digital',
   description:
