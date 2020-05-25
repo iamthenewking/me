@@ -29,11 +29,12 @@
 
       <template v-slot:sidebar>
         <div class="content has-text-centered">
-           
+            <social-media />
+            <br/>
           <p class="is-size-7 is-size-6-widescreen is-size-6-mobile">
          <img src="/VB-LOG-R-2T.png">
           </p>
-          <social-media />
+         
 
           
           
