@@ -11,9 +11,9 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'gaboni.netlify.app',
   url: 'https://gaboni.netlify.app',
-  tagLine: 'Tech | Leadership | Career | D&I',
+  tagLine: 'All Things Digital',
   description:
-    "Tutti Quintella's personal website (tuttiq's blog). Stories of a software engineer turned into engineering manager, community leader and D&I advocate (for women and underrepresented folks in tech).",
+    "All Things Digital",
   featureImage: '/uploads/banner.png',
   logo: '/logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -28,13 +28,7 @@ export default {
     {
       name: 'Content',
       link: '/categories'
-    },
-    
-     
-    {
-      name: 'Contact',
-      link: '/contact'
-    }
+    } 
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -54,9 +48,9 @@ export default {
 
   // Disqus
   disqus: {
-    on: false,
+    on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    siteShortName: 'getbuya' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
