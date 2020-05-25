@@ -1,7 +1,7 @@
 <template>
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero
-      title="Articles | Talks | Podcasts | etc"
+      title="All Thing Digital"
       image="/uploads/content-hero.jpg"
     />
     <main-section theme="sidebar-right">
