@@ -12,17 +12,17 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <p class="title">
-          Latest content
+          Latest Contents
         </p>
         <posts-grid :per-row="2" :number="4" />
 
         <p class="content has-text-centered">
           <a class="button is-primary is-outlined" href="/categories">
-            More posts
+            Load More posts
           </a>
         </p>
         <p class="title">
-          Browse by category
+          Browse by Category
         </p>
         <categories-grid :per-row="3" />
       </template>
